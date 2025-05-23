@@ -29,16 +29,18 @@ npm install
 npm run dev
 ```
 
-## Estrutura
+## Testes
 
-```
-src/
-├── components/
-├── hooks/
-├── pages/
-├── services/
-├── store/
-└── utils/
+```bash
+# Testes unitários com vitest
+npx vitest
+
+# Testes e2e com cypress modo interativo
+npx cypress open
+
+# Testes e2e com cypress em modo headless - sem abrir navegador
+npx cypress:run
+
 ```
 
 ## API
